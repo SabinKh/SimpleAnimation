@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.test{
+    position: relative;
+    margin: 40px;
+    width: 100px;
+    height: 100px;
+
+}
+.test2{
+    
+ background-color:#92B901;
+ width: 60;
+ height: 50;
+ padding: 15px;
+ position: relative;
+ font-size: 25px;
+ animation:css 6s;
+ animation-iteration-count: 10;
+
+}
+@keyframes css{
+
+    0%{
+        transform: rotate(0deg);
+        left:0px;
+    }
+    25%{
+        transform: rotate(20deg);
+        left:0px;
+    }
+    50%{
+        transform: rotate(0deg);
+        left:400px;
+    }
+    75%{
+        transform: rotate(0deg);
+        left:400px;
+        background-color:#1EC7E5 ;
+    }
+    100%{
+        transform: rotate(-360deg);
+        left:0px;
+    }
+
+
+
+}
+
+
+
+
+
+   
+    
+
+
+
+
